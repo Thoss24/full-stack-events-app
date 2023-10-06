@@ -28,7 +28,7 @@ function App() {
     return ( 
         <div className="App"> 
             <form 
-                action="http://localhost/server.php"
+                action="http://localhost/project/database.php"
                 method="post"
                 onSubmit={(event) => handleSubmit(event)} 
             > 
